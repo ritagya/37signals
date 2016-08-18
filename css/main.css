@@ -1,0 +1,312 @@
+.navigation ul{
+	float: right;
+	margin: -10px 10px 10px 15px;
+}
+.navigation li{
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+}
+.navigation a{
+	color: #369;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #18AFE0;
+}
+.navigation .second a{
+	color:#18AFE0;
+}
+
+/*header content*/
+.main-header {
+	padding-top: 20px;
+	text-align: center;
+	margin:30px auto;
+	width:60%;
+	clear: both;
+}
+.main-header h1{
+	font-size: 48px;
+}
+.main-header h2{
+	font-size: 16px;
+}
+
+/*products section*/
+
+header, section {
+    margin: 30px auto;
+    width: 825px;
+    display: block;
+}
+
+.products{
+	text-align: center;
+	height: 288px;
+	padding-bottom: 30px;
+}
+
+.products a{
+	position: relative;
+    top: 40px;
+    left: 75px;
+    width: 160px;
+    margin: 15px 20px 5px;
+    float: left;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #EFEFEF;
+    padding: 20px 10px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.products h3{
+	color: #369;
+	margin: 10px 5px;
+}
+
+.products sup{
+	color:grey;
+}
+
+.products h4{
+	color: maroon;
+	margin: 0px;
+	font-size: 15px;
+}
+
+.products p{
+	color: #222;
+    font-size: 14px;
+    line-height: 1.4em;
+    margin: 5px 0;
+}
+
+/*hr*/
+hr{
+	background: white url('../images/hr.png') no-repeat scroll 50% 50%;
+    height: 15px;
+    border: 0;
+    text-align: center;
+}
+/*customer section 
+.customers h2{
+	font-size: 40px;
+	text-align: center;
+}
+
+.people a{
+	display: block;
+    width: 143px;
+    height: 104px;
+	background: url('../images/img-customers.png') no-repeat 0 0;
+	text-indent: -1000em;
+}
+.customers p {
+	font-size: 22px;
+    line-height: 1.3em;
+    color: #666;
+    margin-bottom: 20px;
+}
+.globe{
+	float: right;
+}*/
+
+
+/** CUSTOMERS **/
+#customers {
+	margin-bottom: 50px;
+	position: relative;
+}
+
+#customers > p {
+	color: #656565;
+	font-size: 22px;
+	line-height: 30px;
+	margin-bottom: 20px;	
+}
+
+.meet {
+    left: -140px;
+    position: absolute;
+    top: 70px;
+}
+
+.meet a {
+	background: url('../images/img-customers.png');
+	display: block;
+	height: 104px;
+	text-indent: -1000px;
+	width: 143px;
+}
+
+.meet a:hover {
+	background-position: 0 100%;
+}
+
+.meet p {
+	color: #336699;
+	cursor: pointer;
+	font-size: 14px;
+	text-align: center;
+}
+
+.meet p:hover {
+	color: #6699CC;
+	text-decoration: underline;
+}
+
+.arrow-left {
+	height: 36px;
+	position: relative;
+	top: -35px;
+	width: 69px;
+}
+
+.globe {
+	float: right;
+}
+
+
+
+/*manifesto section */
+.manifesto {
+	margin-bottom: 50px;
+	padding-left: 15px;
+	overflow: hidden;
+	text-align: center;
+}
+.manifesto h2{
+	font-size: 40px;
+	text-align: center;
+}
+
+.column-left,
+.column-right {
+	float: left;
+	color: #222;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+.column-left {
+	width: 380px;
+	margin-right: 40px;
+}
+.column-right {
+	margin-right: 0px;
+	width: 380px;
+}
+.manifesto h3 {
+	float: left;
+	font-size: 58px;
+	line-height: normal;
+	margin: -10px 15px 0 0;
+	color: #CCC;
+}
+.manifesto h4 {
+	font-family: 'Roboto', sans-serif;
+	margin: 5px 0;
+	color: #C00;
+	text-align: left;
+}
+.manifesto p {
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	line-height: 1.4em;
+	font-size: 12px;
+	padding: 0 45px;
+}
+/* Reworks section */
+.rework {
+    height: 500px;
+    position: relative;
+}
+.rework h2{
+	font-size: 40px;
+	text-align: center;
+}
+.quotes h3 {
+    color: #888;
+    font-weight: normal;
+    font-family: "CrimsonRomanItalic", serif;
+    font-style: italic;
+    font-size: 22px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.quotes {
+    padding-top: 5px;
+    text-align: center;
+}
+.book{
+	float:left;
+}
+.test{
+	float: right;
+}
+/*Offerings section */
+ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.offerings{
+text-align: center;
+}
+.offerings h2{
+	font-size: 40px;
+	text-align: center;
+}
+.offerings column-left{
+	margin-right: 30px;
+    margin-left: 110px;
+    text-align: center;
+}
+.offerings .column-right {
+    float: left;
+    width: 300px;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.offerings h3{
+	border-bottom: 1px solid #E8E8E8;
+	color: #C00;
+}
+.offerings a{
+	font-size: 22px;
+    color: #222;
+    text-decoration: none;
+}
+.offerings small{
+	color: #666;
+    font-size: 12px;
+    font-family: 'Lucida Grande', sans-serif;
+}
+.offerings li{
+	padding : 5px;
+}
+/* Footer */
+footer{
+	margin: 30px auto;
+    text-align: center;
+    line-height: 1.5em;
+    font-family: 'Lucida Grande', sans-serif;
+}
+footer h3{
+	color: red;
+	font-size: 14px;
+}
+footer a{
+	text-decoration: none;
+	color: #369;
+	font-size: 12px;
+}
+footer p{
+	font-size: 12px;
+	color: grey;
+}
